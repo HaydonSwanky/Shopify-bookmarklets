@@ -1,5 +1,5 @@
 javascript: (async function() {
-  const res = await fetch('https://gist.githubusercontent.com/HaydonSwanky/8d245701f56b48f1cb0c48e23a5bf090/raw/shopify-preview-theme.js?v=2');
+  const res = await fetch('https://raw.githubusercontent.com/HaydonSwanky/Shopify-bookmarklets/refs/heads/main/bookmarklets.js');
   const text = await res.text();
   const functions =  eval(text);
 
@@ -8,7 +8,7 @@ javascript: (async function() {
 
 
 javascript: (async function() {
-  const res = await fetch('https://gist.githubusercontent.com/HaydonSwanky/8d245701f56b48f1cb0c48e23a5bf090/raw/shopify-preview-theme.js?v=2');
+  const res = await fetch('https://raw.githubusercontent.com/HaydonSwanky/Shopify-bookmarklets/refs/heads/main/bookmarklets.js');
   const text = await res.text();
   const functions = eval(text);
 
@@ -17,7 +17,7 @@ javascript: (async function() {
 
 
 javascript: (async function() {
-  const res = await fetch('https://gist.githubusercontent.com/HaydonSwanky/8d245701f56b48f1cb0c48e23a5bf090/raw/shopify-preview-theme.js?v=2');
+  const res = await fetch('https://raw.githubusercontent.com/HaydonSwanky/Shopify-bookmarklets/refs/heads/main/bookmarklets.js');
   const text = await res.text();
   const functions = eval(text);
 
