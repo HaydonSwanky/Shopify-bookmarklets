@@ -44,7 +44,7 @@
 
 
   const openAdmin = () => {
-    let url = new URL(Shopify?.shop ? `https://admin.shopify.com/store/${Shopify.shop.split(".")[0]}` : location.origin+"/admin");
+    let url = new URL(window?.Shopify?.shop ? `https://admin.shopify.com/store/${Shopify.shop.split(".")[0]}` : location.origin+"/admin");
     console.log("Navigatingto", url.toString());
     location.href=url;
   }
